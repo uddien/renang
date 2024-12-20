@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#octocat {
+    height: 300px;
+    width: 200px;
+    background: url(https://raw.githubusercontent.com/codypearce/codepen-files/main/pens/octocat/octocat.png) left center;
+    animation: animateSprite 15s steps(1) infinite, swim 15s ease-in-out infinite;
+    position: absolute;
+    right: -200px;
+    top: 50%;
+    margin-top: -150px;
+    z-index: 100;
+}
