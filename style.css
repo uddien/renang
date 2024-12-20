@@ -14,3 +14,48 @@ body {
     margin-top: -150px;
     z-index: 100;
 }
+
+@keyframes animateSprite {
+    0% {
+        background-position: -600px;
+        /* Starting position moving left sprite */
+    }
+
+    20% {
+        background-position: 0px;
+        /* Straight on sprite */
+    }
+
+    25% {
+        background-position: -200px;
+        /* Moving up sprite */
+    }
+
+    35% {
+        background-position: -400px;
+        /* Moving right sprite */
+    }
+
+    40% {
+        background-position: -400px;
+    }
+
+    50% {
+        background-position: -200px;
+        /* Moving up sprite */
+    }
+
+    60% {
+        background-position: -0px;
+        /* Straight on sprite */
+    }
+
+    67% {
+        background-position: -600px;
+        /* Moving up sprite */
+    }
+
+    100% {
+        background-position: -600px;
+    }
+}
