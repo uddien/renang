@@ -81,5 +81,22 @@ body {
         /* Animate up for 2 seconds */
     }
 
-   
+    50% {
+        transform: translate(-25vw, 15vh);
+        /* Animate bottom right for 3 seconds */
+    }
+
+    60% {
+        transform: translate(-25vw, -20vh);
+        /* Animate up at right of the screen */
+    }
+
+    67% {
+        transform: translate(-25vw, -20vh);
+    }
+
+    100% {
+        transform: translate(calc(-100vw - 300px), 0);
+        /* Animate past left past the screen */
+    }
 }
