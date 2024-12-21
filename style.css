@@ -59,3 +59,27 @@ body {
         background-position: -600px;
     }
 }
+
+@keyframes swim {
+    0% {
+        transform: translate(0, 0);
+        /* Starting position */
+    }
+
+    20% {
+        transform: translate(calc(-50vw - 100px), 0);
+        /* Animate to center of screen */
+    }
+
+    25% {
+        transform: translate(calc(-50vw - 100px), 0);
+        /* Stay at the center for 1 second */
+    }
+
+    35% {
+        transform: translate(calc(-50vw - 100px), -20vh);
+        /* Animate up for 2 seconds */
+    }
+
+   
+}
