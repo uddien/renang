@@ -148,4 +148,13 @@ body {
     opacity: 0.2;
 }
 
+.bubble--2 {
+    width: 15px;
+    height: 15px;
+    left: 40%;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    opacity: 0.1;
+}
+
 
