@@ -166,4 +166,13 @@ body {
     opacity: 0.3;
 }
 
+.bubble--4 {
+    width: 25px;
+    height: 25px;
+    left: 40%;
+    animation-delay: 8s;
+    animation-duration: 17s;
+    opacity: 0.2;
+}
+
 
