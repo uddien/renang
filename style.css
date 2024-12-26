@@ -175,4 +175,13 @@ body {
     opacity: 0.2;
 }
 
+.bubble--5 {
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    animation-delay: 10s;
+    animation-duration: 15s;
+    opacity: 0.1;
+}
+
 
