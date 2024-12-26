@@ -184,4 +184,13 @@ body {
     opacity: 0.1;
 }
 
+.bubble--6 {
+    width: 10px;
+    height: 10px;
+    left: 80%;
+    animation-delay: 3s;
+    animation-duration: 30s;
+    opacity: 0.4;
+}
+
 
