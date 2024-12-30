@@ -231,3 +231,10 @@ body {
     animation-duration: 20s;
     opacity: 0.3;
 }
+
+.bubble--11 {
+    width: 25px;
+    height: 25px;
+    left: 90%;
+    bottom: 30px; 
+}
